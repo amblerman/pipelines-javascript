@@ -36,7 +36,7 @@ steps:
     kubectl config set-cluster cluster.local --server=https://169.45.189.35:8001 --insecure-skip-tls-verify=true 
     kubectl config set-context cluster.local-context --cluster=cluster.local 
     kubectl config set-credentials admin --token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiaWFub20zNWJiNWhpZWVwOXVuazAiLCJyZWFsbU5hbWUiOiJjdXN0b21SZWFsbSIsInVuaXF1ZVNlY3VyaXR5TmFtZSI6ImFkbWluIiwiaXNzIjoiaHR0cHM6Ly9teWNsdXN0ZXIuaWNwOjk0NDMvb2lkYy9lbmRwb2ludC9PUCIsImF1ZCI6ImFhNzcwNGNhMTIwZWNlN2M5NTM2NjRhNzJlMGYzMGUxIiwiZXhwIjoxNTQ0MDk1MTA2LCJpYXQiOjE1NDQwNjYzMDYsInN1YiI6ImFkbWluIiwidGVhbVJvbGVNYXBwaW5ncyI6W119.Q2SnRkNNVqubwJ0UQHkTSYLqGWqtvlmE1HggNRSCa9m6nET7Rux3HUEDfe67gdlblQMJTgaDuY_3VVo6KkXUotcB7NQIZr7Djty9fpmk7c27Qpxb3cpaoMRzz0BVaoKX17SRKwROefiWwL_ypskPyTm6ZrQaB6iyP37kGidj2CwkYQQfk_dp3reWAhIyDpcrQitTmnMhpVkC746YfkrX3cg48bBfi1-OYg949AVeM94EfZgrGwFhaEcIJJq0Sq1H1a5MrydUqbQe10gXIf_rGyAT0TVaX-y-UNHM4lXWsx8Y2mObdicwNbXKl0wCRuVqerxhvOHyy2thSLvztLOfzA 
-    kubectl config set-context cluster.local-context --user=admin --namespace=agupta 
+    kubectl config set-context cluster.local-context --user=admin --namespace=amoynaha 
     kubectl config use-context cluster.local-context
     kubectl get pods
   displayName: 'run kubectl cmds'
