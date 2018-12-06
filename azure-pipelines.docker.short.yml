@@ -32,4 +32,7 @@ steps:
   displayName: 'going to print the darn working directory as a test'
 - script: 'hostname'
   displayName: "Try and print hostname of mac?"
+- script: |
+    kubectl version
+  displayName: 'get kubectl version'
   
